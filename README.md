@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href:"https://ernaneneto.github.io/Html-Css/Módulo%201/exercícios/ex008/index.html">Executar o exercício 008 </a>
+<a href:"https://ernaneneto.github.io/Html-Css/Modulo%201/exercicios/ex008/index.html">Executar o exercício 008</a>
