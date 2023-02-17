@@ -4,3 +4,46 @@
     font-family: 'Passion-One';
     src: url(fontes/Passion_One/PassionOne-Bold.ttf) format(truetype);
 }
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-size: 1.6em;
+    text-align: center;
+    padding: 60px;
+}
+
+header p>a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 70px ;
+}
+
+.normal{
+    font-family: 
+    font-size: ;
+}
+
+.imagem#img1 {
+    background-image: url(imagens/background001.jpg);
+}
+
+.imagem#img2 {
+    background-image: url(imagens/background002.jpg);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding: 5px;
+}
