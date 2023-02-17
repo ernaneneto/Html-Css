@@ -7,6 +7,72 @@
     <title>Cordel Moderno</title>
     <style>
 
+        * {
+            margin: 0px;
+            padding:0px;
+        }
+
+        @font-face {
+            font-family: passion one;
+            src: url(fontes/Passion_One/OFL.txt);
+        }
+
+        @font-face {
+            font-family: sriracha;
+            src: url(fontes/Sriracha/OFL.txt);
+        }
+
+    :root {
+        --fonte-padrao: Arial, verdana, Helvetica, sans-serif;  
+
+    }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 70px;
+            margin: auto;
+            text-align: center;
+            min-height: 15px;
+        }
+
+        main {
+            background-color:white;
+            background-size: 100vh;
+        }
+        
+        .normal>p {
+            color: black;
+            background-color: aqua;
+            padding: 40px;
+            font-size: 1.5em;
+            border: none;
+        }
+
+        .imagem>p {
+            color: white;
+            font-size: 1.5em;
+        }
+
+        .imagem#img1 {
+            padding: 70px;
+            background-image: url(imagens/background001.jpg);
+            background-position: right center;
+        }
+
+        .imagem#img2 {
+            padding: 70px;
+            background-image: url(imagens/background002.jpg);
+            background-position: right center;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 1.2em;
+        }
     </style>
 </head>
 <body>
@@ -32,7 +98,7 @@
                 Vou dizer tudo em poesia.
             </p>
         </section>
-        <section class="imagem">
+        <section class="imagem" id="img1">
             <p>
                 Não é mais como era antes
                 <br>
@@ -81,7 +147,7 @@
                 Decifre esse rabisco.
             </p>
         </section>
-        <section class="imagem">
+        <section class="imagem" id="img2">
             <p>
                 Tenho saudade das cartas
                 <br>
@@ -132,6 +198,9 @@
         </section>
     </main>
     <footer>
+        <p>
+            Site criado por Gustavo Guanabara para o CursoemVideo
+        </p>
 
     </footer>
 </body>
